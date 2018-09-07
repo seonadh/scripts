@@ -2,6 +2,7 @@
 # @author: A.Lepe
 # @since: 2015-09-04
 # run: apt list --installed in each computer
+# For RPM based systems, the script can be used with rpm -qa --qf '%{NAME}/ %{VERSION}\n' > file1
 # name them: compare_one.lst and compare_two.lst
 
 use strict;
